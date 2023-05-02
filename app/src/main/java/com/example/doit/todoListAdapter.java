@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -45,8 +46,8 @@ public class todoListAdapter extends RecyclerView.Adapter<todoListAdapter.MyView
 
     class MyViewHolder extends RecyclerView.ViewHolder{
         private CheckBox chkContent;
-        private Button btnDelete;
-        private Button btnUpdte;
+        private ImageButton btnDelete;
+        private ImageButton btnUpdte;
 
         public MyViewHolder(@NonNull View itemView, final todoListListener listener) {
             super(itemView);
